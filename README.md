@@ -1,6 +1,6 @@
-# Next.js Project
+# Patara Frontend Case
 
-This is a [Next.js](https://nextjs.org/) project built with modern web development tools and libraries. It leverages TypeScript for type safety, Tailwind CSS for styling, shadcn for accessible UI components, and Zustand for state management.
+This is a Next.js project built with modern web development tools and libraries. It leverages TypeScript for type safety, Tailwind CSS for styling, shadcn for accessible UI components, and Zustand for state management.
 
 ## Features
 
