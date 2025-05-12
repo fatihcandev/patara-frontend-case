@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgAsterisk = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} fill="none" viewBox="0 0 24 24" {...props}><path fill="currentColor" d="M12 2.25A9.75 9.75 0 1 0 21.75 12 9.76 9.76 0 0 0 12 2.25m6.011 12.482a.75.75 0 0 1-.772 1.286l-4.489-2.693v4.863a.75.75 0 1 1-1.5 0v-4.863l-4.489 2.693a.75.75 0 1 1-.772-1.286L10.542 12 5.99 9.268a.75.75 0 0 1 .772-1.286l4.489 2.693V5.812a.75.75 0 1 1 1.5 0v4.863l4.489-2.693a.75.75 0 1 1 .772 1.286L13.458 12z" /></svg>;
+export default SvgAsterisk;

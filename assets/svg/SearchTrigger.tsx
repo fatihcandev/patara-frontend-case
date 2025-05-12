@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgSearchTrigger = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={32} height={24} fill="none" viewBox="0 0 32 24" {...props}><path fill="#181818" d="M0 8a8 8 0 0 1 8-8h16a8 8 0 0 1 8 8v8a8 8 0 0 1-8 8H8a8 8 0 0 1-8-8z" /><path fill="gray" d="M12.438 12.75H11.5v-1.5h.938a1.687 1.687 0 1 0-1.688-1.687v.937h-1.5v-.937a1.687 1.687 0 1 0-1.687 1.687H8.5v1.5h-.937a1.688 1.688 0 1 0 1.687 1.688V13.5h1.5v.938a1.687 1.687 0 1 0 1.688-1.688M11.5 9.563a.938.938 0 1 1 .938.937H11.5zm-4.875 0a.937.937 0 1 1 1.875 0v.937h-.937a.94.94 0 0 1-.938-.937M8.5 14.436a.937.937 0 1 1-.937-.937H8.5zm.75-3.187h1.5v1.5h-1.5zm3.188 4.125a.94.94 0 0 1-.938-.937V13.5h.938a.938.938 0 0 1 0 1.875M19.095 16V7.48h1.296v4.068l3.588-4.068h1.572l-3.264 3.72 3.48 4.8h-1.524l-2.82-3.888-1.032 1.152V16z" /></svg>;
+export default SvgSearchTrigger;

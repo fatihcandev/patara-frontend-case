@@ -1,0 +1,4 @@
+import * as React from "react";
+import type { SVGProps } from "react";
+const SvgBell = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} fill="none" viewBox="0 0 24 24" {...props}><path fill="currentColor" d="M15.75 21a.75.75 0 0 1-.75.75H9a.75.75 0 1 1 0-1.5h6a.75.75 0 0 1 .75.75m5.049-3a1.48 1.48 0 0 1-1.299.75h-15a1.5 1.5 0 0 1-1.294-2.256c.52-.896 1.294-3.43 1.294-6.744a7.5 7.5 0 0 1 15 0c0 3.312.774 5.848 1.295 6.744A1.49 1.49 0 0 1 20.798 18m-1.299-.75c-.725-1.244-1.5-4.12-1.5-7.5a6 6 0 0 0-12 0c0 3.38-.776 6.257-1.5 7.5z" /></svg>;
+export default SvgBell;
